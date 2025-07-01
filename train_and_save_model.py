@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import RandomOverSampler
 import joblib
 
-df = pd.read_csv('cancer_data.csv')
+df = pd.read_csv('./data/cancer_data.csv')
 df.columns = df.columns.str.strip()
 
 df.drop(['index', 'Patient Id'], axis=1, inplace=True)
