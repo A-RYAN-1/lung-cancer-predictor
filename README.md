@@ -154,20 +154,7 @@ This generates:
 5.  Open a pull request.
    
 
-🔮 Future Enhancements
+📷 Working
 ----------------------
 
-*   Add NLP input parsing with spaCy or Hugging Face tokenizers.
-    
-*   Implement a chatbot for interactive risk queries.
-    
-*   Use local open-source LLMs (e.g., Mistral-7B) to eliminate API dependency.
-    
-*   Integrate xAI’s Grok 3 API when available (check [x.ai/api](https://x.ai/api)).
-
-
-*   Test the app locally before deployment to verify API integration.
-    
-*   Use the mock response for demo reliability if API limits are a concern.
-    
-*   Check GitHub Actions or CI/CD for automated testing in future iterations.
+https://github.com/user-attachments/assets/9cc18f2d-15c3-4a14-a15a-2cebb7f74424
