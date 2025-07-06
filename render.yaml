@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: lung-cancer-risk-predictor
+    name: lung-cancer-predictor
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
+    pythonVersion: 3.10.13
     envVars:
       - key: HUGGINGFACE_API_KEY
         value: "https://api-inference.huggingface.co/models/mixtralai/Mixtral-8x7B-Instruct-v0.1"
