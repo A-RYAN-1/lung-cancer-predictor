@@ -3,7 +3,7 @@ services:
     name: lung-cancer-risk-predictor
     env: python
     buildCommand: ""
-    startCommand: gunicorn app:app
+    startCommand: python app.py
     envVars:
       - key: HUGGINGFACE_API_KEY
         value: "https://api-inference.huggingface.co/models/mixtralai/Mixtral-8x7B-Instruct-v0.1"
